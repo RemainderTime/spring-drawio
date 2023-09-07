@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-07T09:35:09.726Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="3exQHelbQxJoDN4KthqU" version="21.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-07T09:37:54.774Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="NlUUAYxiUvP47O6yM8TM" version="21.7.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1050" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,7 +10,7 @@
         <mxCell id="xt79i7j6001MH6tI2dmM-6" value="Object beanCalss;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="20" y="130" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="xt79i7j6001MH6tI2dmM-7" value="&lt;h3&gt;BeanFactory&lt;/h3&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#393C56;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="xt79i7j6001MH6tI2dmM-7" value="&lt;h3&gt;&lt;font color=&quot;#00cc00&quot;&gt;BeanFactory&lt;/font&gt;&lt;/h3&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#393C56;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="220" y="90" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xt79i7j6001MH6tI2dmM-8" value="getBean(String beanName)" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -19,7 +19,7 @@
         <mxCell id="xt79i7j6001MH6tI2dmM-10" value="" style="whiteSpace=wrap;html=1;aspect=fixed;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="390" y="60" width="160" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="xt79i7j6001MH6tI2dmM-11" value="&lt;h3&gt;SingletonBeanRegister&lt;/h3&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#393C56;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="xt79i7j6001MH6tI2dmM-11" value="&lt;h3&gt;&lt;font color=&quot;#00cc00&quot;&gt;SingletonBeanRegister&lt;/font&gt;&lt;/h3&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#393C56;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="390" y="60" width="250" height="70" as="geometry" />
         </mxCell>
         <mxCell id="xt79i7j6001MH6tI2dmM-13" value="Object getSiingletonBean(String beanName);&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -28,7 +28,7 @@
         <mxCell id="xt79i7j6001MH6tI2dmM-14" value="" style="whiteSpace=wrap;html=1;aspect=fixed;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="597" y="260" width="150" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="xt79i7j6001MH6tI2dmM-15" value="&lt;h3&gt;BeanDefinitionRegister&lt;/h3&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#393C56;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="xt79i7j6001MH6tI2dmM-15" value="&lt;h3&gt;&lt;font color=&quot;#00cc00&quot;&gt;BeanDefinitionRegister&lt;/font&gt;&lt;/h3&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#393C56;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="597" y="260" width="230" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xt79i7j6001MH6tI2dmM-16" value="" style="whiteSpace=wrap;html=1;aspect=fixed;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
