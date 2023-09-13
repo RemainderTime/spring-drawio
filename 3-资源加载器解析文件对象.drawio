@@ -1,9 +1,101 @@
-<mxfile host="app.diagrams.net" modified="2023-09-13T05:40:46.831Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="21.7.4" etag="l2aferC0qBFkGHzfOD21" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-13T06:53:30.686Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="yKMCTqGRUcLiRZ7Sv7p0" version="21.7.4" type="github">
   <diagram name="第 1 页" id="g-J7haauCMhBv2Hcuovk">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="VR_gZrT574FHimNZZ2ZZ-10" value="资源加载接口：Source" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="270" y="48" width="200" height="60" as="geometry">
+            <mxRectangle x="270" y="48" width="170" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VR_gZrT574FHimNZZ2ZZ-13" value="InputStream getInputStream();" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="VR_gZrT574FHimNZZ2ZZ-10">
+          <mxGeometry x="5" y="30" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VR_gZrT574FHimNZZ2ZZ-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.174;entryY=1.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VR_gZrT574FHimNZZ2ZZ-17" target="VR_gZrT574FHimNZZ2ZZ-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VR_gZrT574FHimNZZ2ZZ-17" value="CalssPathSource" style="swimlane;whiteSpace=wrap;html=1;startSize=20;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="10" y="160" width="200" height="90" as="geometry">
+            <mxRectangle x="70" y="160" width="140" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VR_gZrT574FHimNZZ2ZZ-18" value="prvite fail String path;&lt;br&gt;privte fail ClassLoader;&lt;br&gt;InputStream getInputStream()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="VR_gZrT574FHimNZZ2ZZ-17">
+          <mxGeometry x="20" y="30" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VR_gZrT574FHimNZZ2ZZ-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.463;entryY=1.133;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VR_gZrT574FHimNZZ2ZZ-19" target="VR_gZrT574FHimNZZ2ZZ-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VR_gZrT574FHimNZZ2ZZ-19" value="FileSystemSource" style="swimlane;whiteSpace=wrap;html=1;startSize=30;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="225" y="170" width="200" height="90" as="geometry">
+            <mxRectangle x="250" y="160" width="140" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VR_gZrT574FHimNZZ2ZZ-21" value="prvite fail String path;&lt;br&gt;private fail File file;&lt;br&gt;InputStream getInputStream();" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="VR_gZrT574FHimNZZ2ZZ-19">
+          <mxGeometry y="23" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VR_gZrT574FHimNZZ2ZZ-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.7;entryY=1.133;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VR_gZrT574FHimNZZ2ZZ-22" target="VR_gZrT574FHimNZZ2ZZ-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VR_gZrT574FHimNZZ2ZZ-22" value="UrlSource" style="swimlane;whiteSpace=wrap;html=1;startSize=23;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="480" y="180" width="200" height="90" as="geometry">
+            <mxRectangle x="480" y="180" width="100" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VR_gZrT574FHimNZZ2ZZ-24" value="private fail String url;&lt;br&gt;InpiutStream getInputStream();" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="VR_gZrT574FHimNZZ2ZZ-22">
+          <mxGeometry y="30" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VR_gZrT574FHimNZZ2ZZ-28" value="包装资源加载器：SourceLoader" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="220" y="270" width="210" height="80" as="geometry">
+            <mxRectangle x="220" y="270" width="220" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VR_gZrT574FHimNZZ2ZZ-29" value="Source getSource(String location);" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="VR_gZrT574FHimNZZ2ZZ-28">
+          <mxGeometry y="40" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VR_gZrT574FHimNZZ2ZZ-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="VR_gZrT574FHimNZZ2ZZ-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="317" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VR_gZrT574FHimNZZ2ZZ-30" value="DefaultSourceLoader" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" collapsed="1" parent="1">
+          <mxGeometry x="240" y="400" width="160" height="30" as="geometry">
+            <mxRectangle x="240" y="400" width="206" height="110" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VR_gZrT574FHimNZZ2ZZ-31" value="Source getSource(String location);" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="VR_gZrT574FHimNZZ2ZZ-30">
+          <mxGeometry x="-4" y="40" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VR_gZrT574FHimNZZ2ZZ-34" value="Bean定义读取接口：BeanDefiniationReader" style="swimlane;whiteSpace=wrap;html=1;startSize=30;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="80" y="530" width="300" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="VR_gZrT574FHimNZZ2ZZ-35" value="BeanDefiniationRegistry getRegistry();&lt;br&gt;SourceLoader getSourceLoader();&lt;br&gt;void loadBeanDefiniations(Source source);&lt;br&gt;void loadBeanDefiniation(Source... source);&lt;br&gt;void loadBeanDefiniation(String location);" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=0;" vertex="1" parent="VR_gZrT574FHimNZZ2ZZ-34">
+          <mxGeometry y="40" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="VR_gZrT574FHimNZZ2ZZ-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1.044;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="VR_gZrT574FHimNZZ2ZZ-36" target="VR_gZrT574FHimNZZ2ZZ-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VR_gZrT574FHimNZZ2ZZ-36" value="AbstractBeanDefiniationReader" style="swimlane;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#333333;fillColor=#f5f5f5;startSize=23;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="90" y="730" width="230" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="VR_gZrT574FHimNZZ2ZZ-37" value="private BeanDefiniationRegistry&amp;nbsp; registry;&lt;br&gt;private ResourceLoader loader;&lt;br&gt;BeanDefiniationRegistry getRegistry();&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;SourceLoader getSourceLoader();" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="80" y="768" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VR_gZrT574FHimNZZ2ZZ-39" value="BeanDefiniationRegistry" style="swimlane;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=12;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="424" y="515" width="395" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="VR_gZrT574FHimNZZ2ZZ-40" value="&lt;pre&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;void registryBeanDefiniation(String beanName,&lt;br&gt;BeanDefiniation beanDefiniation);&lt;br&gt;BeanDefiniation getBeanDefiniation(String beanNaem);&lt;br&gt;boolean containsBeanDefiniation(BeanDefiniation beanDefiniation);&lt;/font&gt;&lt;/pre&gt;&lt;pre&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;List&amp;lt;String&amp;gt; getBeanDefiniationNames();&lt;/font&gt;&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="VR_gZrT574FHimNZZ2ZZ-39">
+          <mxGeometry y="35" width="400" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="VR_gZrT574FHimNZZ2ZZ-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="VR_gZrT574FHimNZZ2ZZ-41" target="VR_gZrT574FHimNZZ2ZZ-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VR_gZrT574FHimNZZ2ZZ-41" value="XMlBeanDefiniatonReader" style="swimlane;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="105" y="900" width="260" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="VR_gZrT574FHimNZZ2ZZ-42" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;void loadBeanDefiniations(Source source);&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;void loadBeanDefiniation(Source... source);&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;void loadBeanDefiniation(String location);&lt;br&gt;doLoadBeanDefiniation(InputStream input);&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="VR_gZrT574FHimNZZ2ZZ-41">
+          <mxGeometry x="-10" y="53" width="270" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
