@@ -1,9 +1,21 @@
-<mxfile host="app.diagrams.net" modified="2023-09-18T03:31:53.696Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" version="21.7.5" etag="LCzpfq020Z4X05ERPkqZ" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-18T03:46:26.760Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="iSbpz4gIOA7YKk289OPF" version="21.7.5" type="github">
   <diagram name="第 1 页" id="bFISF0cWKj3wCs3VBASJ">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="wdixgbKL9RA-rCSzEny8-1" value="BeanDefinition加载后并且实例化之前：&lt;br&gt;提供修改 BeanDefinition 属性的机制&lt;br&gt;&lt;font color=&quot;#ff0080&quot;&gt;BeanFactoryPostProcessor&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;startSize=50;" vertex="1" parent="1">
+          <mxGeometry x="10" y="70" width="360" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="wdixgbKL9RA-rCSzEny8-2" value="postProcessorBeanFactory(ConfigurableListableBeanFactory fac);&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="wdixgbKL9RA-rCSzEny8-1">
+          <mxGeometry x="-10" y="50" width="380" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wdixgbKL9RA-rCSzEny8-3" value="Bean对象初始化之前和之后处理接口：&lt;font color=&quot;#ff3399&quot;&gt;BeanPostProcessor&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=30;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="420" y="70" width="387" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="wdixgbKL9RA-rCSzEny8-4" value="postProcessorBeforeInitialization(Object bean,String beanName);&lt;br&gt;postProcessorAfterInitialization(Object bean,String beanName);" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="wdixgbKL9RA-rCSzEny8-3">
+          <mxGeometry y="53" width="370" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
